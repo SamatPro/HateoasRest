@@ -37,6 +37,9 @@ public class Book {
 
     private Boolean isForSale;
 
+    @OneToMany(mappedBy = "book")
+    private List<Issuance> issuances;
+
     public void sell(){
         if (!this.isForSale){
             throw new IllegalStateException();
