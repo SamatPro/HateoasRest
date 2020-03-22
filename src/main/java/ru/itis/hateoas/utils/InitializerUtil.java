@@ -39,32 +39,32 @@ public class InitializerUtil {
                 .title("Java for Beginners")
                 .year(Long.parseLong("2015"))
                 .description("The book was published to make easy and enjoy learning process")
-                .genre(new HashSet<>(asList(Genre.ROMANCE, Genre.SCIENCE)))
-                .isForSale(true)
+                .genre(asList(Genre.ROMANCE, Genre.SCIENCE))
+                .isHidden(false)
                 .build();
 
         Book pythonForBeginners = Book.builder()
                 .title("Python for Beginners")
                 .year(Long.parseLong("2018"))
                 .description("Learning Python")
-                .genre(new HashSet<>(asList(Genre.ROMANCE, Genre.SCIENCE)))
-                .isForSale(false)
+                .genre(asList(Genre.ROMANCE, Genre.SCIENCE))
+                .isHidden(false)
                 .build();
 
         Book warAndPeace = Book.builder()
                 .title("War and Peace")
                 .year(Long.parseLong("1826"))
                 .description("Voyna i mir")
-                .genre(new HashSet<>(asList(Genre.CYBERPRUNK, Genre.DISTOPIA)))
-                .isForSale(true)
+                .genre(asList(Genre.CYBERPRUNK, Genre.DISTOPIA))
+                .isHidden(false)
                 .build();
 
         Book evgeniyOnegin = Book.builder()
                 .title("Evgeniy Onegin")
                 .year(Long.parseLong("1824"))
                 .description("Stikhi about Evgenia Onegina of A.S.Pushkin")
-                .isForSale(false)
-                .genre(new HashSet<>(asList(Genre.FANTASY, Genre.CRIME)))
+                .isHidden(false)
+                .genre(asList(Genre.FANTASY, Genre.CRIME))
                 .build();
 
 

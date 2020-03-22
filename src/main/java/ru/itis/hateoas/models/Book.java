@@ -27,7 +27,7 @@ public class Book {
     @CollectionTable(name = "book_genre",
             joinColumns = @JoinColumn(name = "genre_id"))
     @Column(name = "book_id")
-    private Set<Genre> genre;
+    private List<Genre> genre;
 
     @ManyToMany(mappedBy = "books")
     private List<Author> authors;
@@ -35,14 +35,14 @@ public class Book {
     @ManyToOne
     private PublishingHouse publishingHouse;
 
-    private Boolean isForSale;
+    private Boolean isHidden;
 
     @OneToMany(mappedBy = "book")
     private List<Issuance> issuances;
 
-    public void sell(){
-        if (!this.isForSale){
-            throw new IllegalStateException();
+    public void hide(){
+        if (!this.isHidden){
+            this.isHidden = true;
         }
     }
 }

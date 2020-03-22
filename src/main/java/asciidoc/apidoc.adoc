@@ -1,0 +1,25 @@
+= Описание API по книгам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== Скрытие книги
+
+Можно запретить выдачу книги *isHidden=true*
+
+.request
+
+include::{snippets}/hide_book/http-request.adoc[]
+
+.response
+
+include::{snippets}/hide_book/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/hide_book/response-fields.adoc[]
