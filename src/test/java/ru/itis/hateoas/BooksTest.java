@@ -14,14 +14,11 @@ import ru.itis.hateoas.models.Book;
 import ru.itis.hateoas.models.Genre;
 import ru.itis.hateoas.services.BooksService;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-
 import static java.util.Arrays.asList;
 import static org.mockito.Mockito.when;
+import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.*;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
-import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
-import static org.springframework.restdocs.payload.PayloadDocumentation.responseFields;
+import static org.springframework.restdocs.payload.PayloadDocumentation.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -58,7 +55,8 @@ public class BooksTest {
                         fieldWithPath("year").description("Год выпуска"),
                         fieldWithPath("description").description("Описание книги"),
                         fieldWithPath("genre").description("Жанр книги"),
-                        fieldWithPath("isHidden").description("Разрешение на выдачу")
+                        fieldWithPath("isHidden").description("Разрешение на выдачу"),
+                        subsectionWithPath("_links").ignored()
                 )));
     }
 
@@ -72,4 +70,5 @@ public class BooksTest {
                 .isHidden(true)
                 .build();
     }
+
 }

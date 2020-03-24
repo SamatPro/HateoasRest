@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Data
@@ -41,8 +40,10 @@ public class Book {
     private List<Issuance> issuances;
 
     public void hide(){
-        if (!this.isHidden){
-            this.isHidden = true;
-        }
+        this.isHidden = true;
+    }
+
+    public void open(){
+        this.isHidden = false;
     }
 }

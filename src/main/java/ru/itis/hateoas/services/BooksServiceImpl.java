@@ -18,4 +18,12 @@ public class BooksServiceImpl implements BooksService{
         booksRepository.save(book);
         return book;
     }
+
+    @Override
+    public Book open(Long bookId) {
+        Book book = booksRepository.findById(bookId).orElseThrow(IllegalArgumentException::new);
+        book.open();
+        booksRepository.save(book);
+        return book;
+    }
 }

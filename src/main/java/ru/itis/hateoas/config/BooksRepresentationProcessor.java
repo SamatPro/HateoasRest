@@ -22,6 +22,8 @@ public class BooksRepresentationProcessor implements RepresentationModelProcesso
         Book book = model.getContent();
         if (book != null && !book.getIsHidden()){
             model.add(linkTo(methodOn(BooksController.class).hide(book.getId())).withRel("hide"));
+        }else if (book != null && book.getIsHidden()){
+            model.add(linkTo(methodOn(BooksController.class).open(book.getId())).withRel("open"));
         }
         return model;
     }

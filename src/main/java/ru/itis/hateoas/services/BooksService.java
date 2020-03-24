@@ -4,4 +4,5 @@ import ru.itis.hateoas.models.Book;
 
 public interface BooksService {
     Book hide(Long bookId);
+    Book open(Long bookId);
 }
