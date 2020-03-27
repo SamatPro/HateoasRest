@@ -1,0 +1,15 @@
+[source,options="nowrap"]
+----
+{
+  "title" : "Python for Beginners",
+  "year" : 2018,
+  "description" : "Learning Python",
+  "genre" : [ "ROMANCE", "SCIENCE" ],
+  "isHidden" : true,
+  "_links" : {
+    "open" : {
+      "href" : "http://localhost:8080/books/4/open"
+    }
+  }
+}
+----

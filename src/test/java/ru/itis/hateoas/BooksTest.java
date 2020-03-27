@@ -16,7 +16,6 @@ import ru.itis.hateoas.services.BooksService;
 
 import static java.util.Arrays.asList;
 import static org.mockito.Mockito.when;
-import static org.springframework.restdocs.hypermedia.HypermediaDocumentation.*;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
 import static org.springframework.restdocs.payload.PayloadDocumentation.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;

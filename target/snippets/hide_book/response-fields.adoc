@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`+title+`
+|`+String+`
+|Название книги
+
+|`+year+`
+|`+Number+`
+|Год выпуска
+
+|`+description+`
+|`+String+`
+|Описание книги
+
+|`+genre+`
+|`+Array+`
+|Жанр книги
+
+|`+isHidden+`
+|`+Boolean+`
+|Разрешение на выдачу
+
+|===

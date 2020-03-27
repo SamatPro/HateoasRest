@@ -1,0 +1,17 @@
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\Genre.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\Book.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\repositories\AuthorsRepository.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\repositories\BooksRepository.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\repositories\IssuancesRepository.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\repositories\ReadersRepository.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\utils\InitializerUtil.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\services\BooksService.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\Author.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\Reader.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\config\BooksRepresentationProcessor.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\PublishingHouse.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\models\Issuance.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\controllers\BooksController.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\repositories\PublishingHousesRepository.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\services\BooksServiceImpl.java
+D:\Users\Самат\Documents\IdeaProjects\HateoasRest\src\main\java\ru\itis\hateoas\HateoasApplication.java
